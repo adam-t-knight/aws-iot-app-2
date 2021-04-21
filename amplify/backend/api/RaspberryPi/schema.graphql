@@ -1,0 +1,8 @@
+type RPiTemperature @model(timestamps: { createdAt: "createdOn", updatedAt: "updatedOn" }) {
+  id: ID!
+  provider: String!
+  topic: String!
+  temperature: Float!
+  createdOn: AWSDateTime!
+  updatedOn: AWSDateTime!
+}
