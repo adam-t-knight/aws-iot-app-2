@@ -1,0 +1,21 @@
+.table-responsive {
+    height: 450px;  
+    overflow: scroll;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#TemperatureTable th {
+    background: #343a40;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 0 10px 0 10px;
+}
+
+#TemperatureInfo {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
